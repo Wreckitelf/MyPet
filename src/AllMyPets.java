@@ -20,6 +20,7 @@ public class AllMyPets
         //Jgerome (Hamster)
         jgerome.setIsFriendly(false);
         System.out.println("Jgerome's Friendly Status: " + jgerome.getIsFriendly());
+        System.out.println("Jgerome's sleep in seconds: " + jgerome.sleepInSeconds());
 
     }
 }

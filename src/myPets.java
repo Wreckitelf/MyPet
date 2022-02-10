@@ -58,6 +58,11 @@ public class myPets
        this.name = name;
    }
 
+   public int sleepInSeconds()
+   {
+       return (int) amtSleep *  3600;
+   }
+
    //3 To String
    public String toString()
    {
